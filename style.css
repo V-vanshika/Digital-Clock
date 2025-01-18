@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.Digital-Clock {
+    width: 50%;
+    height: 30%;
+    text-align: center;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background:black;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Date {
+    font-size: 1.8rem;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+#Time {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
